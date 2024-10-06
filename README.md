@@ -55,7 +55,12 @@ googleAnalytics = "UA-123-45"
 disqusShortname = "localhost"
 
 # Number of posts to show in recent posts list (Optional). Defaults to 10.
-paginate = 10
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = 'page'
+
+
 
 # Number of characters to show in summary.
 summaryLength = 20

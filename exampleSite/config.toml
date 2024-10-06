@@ -2,7 +2,14 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Ezhil"
 theme = "ezhil"
-paginate = 5
+
+
+[pagination]
+  disableAliases = false
+  pagerSize = 5
+  path = 'page'
+
+
 
 copyright = "© Copyright notice"
 
